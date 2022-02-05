@@ -1,18 +1,3 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: var(--primary-color);
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 :root {
   --primary-color: #001d3d;
   --secondary-color: #ffc300;
@@ -31,8 +16,191 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  background-color: var(--primary-color);
+}
+
 h3 {
   color: var(--secondary-color);
   font-weight: 700;
   font-size: 1.8rem;
+}
+
+/* MEDIA QUERIES */
+
+/*575*/
+@media (max-width: 420px) {
+
+  h3 {
+      font-weight: 700;
+      font-size: 1.7rem;
+  }
+
+  /* HEADER */
+  nav {
+      flex-direction: column;
+      gap: 15px;
+      align-items: center;
+    }
+    nav ul {
+      font-size: 15px;
+      gap: 15px;
+    }
+    nav img {
+      width: 100%;
+    }
+
+    .header-content {
+      margin: auto;
+      gap: 0px;
+    }
+    .header-content h1 {
+      font-size: 3.5rem;
+    }
+  
+    .social-icons img {
+      width: 20px;
+    }
+  
+    .header-content .content-body {
+      font-size: 15px;
+      padding: 0 20px;
+    }
+  
+  /* PROJECTS */  
+  #projects {
+      padding: 50px 20px;
+      width: 100%;
+      
+    } 
+
+  .project-container h3 {
+      font-weight: 700;
+      font-size: 100px;
+  }  
+  
+  .quiz img,
+  .task img,
+  .run-buddy img,
+  .pw-gen img,
+  .wrk-day img,
+  .weather img {
+      width: auto;
+      height: 50%;
+
+  }
+
+  .quiz,
+  .task,
+  .run-buddy,
+  .pw-gen,
+  .wrk-day,
+  .weather {
+      display: flex;
+      flex-wrap: wrap; 
+      
+  }
+
+
+    footer p {
+        align-items: center;
+        justify-content: center;
+        display: inline-block;
+    }
+    
+}
+
+@media (max-width: 768px) {
+  h3 { 
+      font-weight: bolder;
+      font-size: 1rem;
+  }
+
+  #projects {
+      width: 100%;
+  }
+
+}
+
+/*980*/ /*800*/
+@media (max-width: 800px) {
+
+  /* HEADER */
+
+  .header-content {
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 50px;
+    }
+  
+    .header-content h1 {
+      text-align: center;
+    }
+  
+    .social-icons {
+      justify-content: center;
+    }
+  
+    .header-content h1::before {
+      display: none;
+    }
+  
+    .header-content .info {
+      text-align: center;
+      align-items: center;
+    }
+
+    .name {
+      border-right: none;
+  }
+
+  /* PROJECTS */
+  #projects {
+      padding: 50px 30px;
+      width: 100%;
+    }
+
+
+  /* CONTACT */
+  .contact-section {
+      padding: 15px;
+    }
+    .wrapper {
+      flex-direction: column;
+      padding: 15px;
+    }
+  
+    form {
+      width: 100%;
+    }
+  
+    .contact-info {
+      width: 100%;
+    }
+  
+    .contact-info h3 {
+        font-weight: 700;
+    }
+
+  .quiz,
+  .task,
+  .run-buddy,
+  .pw-gen,
+  .wrk-day,
+  .weather {
+      display: flex;
+      flex-wrap: wrap; 
+      
+  }
+
+  .quiz img,
+  .task img,
+  .run-buddy img,
+  .pw-gen img,
+  .wrk-day img,
+  .weather img {
+      width: auto;
+      height: 50%;
+
+  }
 }
