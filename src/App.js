@@ -1,8 +1,9 @@
 import './App.css';
-import './index.css'
-import Header from './Components/Header/Header'
-import Projects from './Components/Projects/Projects'
-
+import './index.css';
+import Header from './Components/Header/Header';
+import Projects from './Components/Projects/Projects';
+import Contact from './Components/Contact/Contact';
+// import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -10,8 +11,8 @@ function App() {
     <div>
       <Header />
       <Projects />
-      {/* <Contact />
-      <Footer /> */}
+      <Contact />
+      {/* <Footer /> */}
     </div>
 
   );
