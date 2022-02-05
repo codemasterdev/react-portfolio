@@ -1,0 +1,96 @@
+#projects {
+    background-color: #003560;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+    flex-direction: column;
+    gap: 50px;
+    grid-gap: 50px;
+    display: flex; 
+}
+
+
+.project-title,
+.contact-title{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+    text-decoration: underline;
+    text-decoration-color: var(--third-color);
+}
+
+.quiz,
+.task,
+.run-buddy,
+.pw-gen,
+.wrk-day,
+.weather {
+    display: flex;
+    gap: 30px;
+    max-width: 1200px;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    padding: 1rem;
+    /* align-items: center; */
+}
+
+.quiz img,
+.task img,
+.run-buddy img,
+.pw-gen img,
+.wrk-day img,
+.weather img{
+    width: 60%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    gap: 15px;
+    justify-content: center;
+}
+
+.tech {
+    display: flex;
+    gap: 15px;
+    color: var(--third-color)
+}
+
+.tech-html,
+.tech-css,
+.tech-js,
+.tech-jquery,
+.tech-bootstrap {
+    padding: 3px 7px;
+    font-size: 0.8rem;
+    font-weight: 300;
+    background: transparent;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+}
+
+.demo,
+.resume {
+    padding: 5px 15px;
+    font-size: 1rem;
+    border: 3px solid var(--third-color);
+    color: var(--secondary-color);
+    box-shadow: rgb(242 108 79) 2px 2px 0px 0px;
+    cursor: pointer;
+    transition: all 0.22s ease-in-out 0s;
+}
+
+.github {
+    padding: 5px 15px;
+    font-size: 1rem;
+    color: rgb(194, 194, 194);
+    box-shadow: rgb(194, 194, 194) 2px 2px 0px 0px;
+    cursor: pointer;
+}
+
+.description,
+.info .content-body p {
+    color: lightgrey;
+}

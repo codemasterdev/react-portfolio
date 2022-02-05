@@ -1,6 +1,7 @@
 import './App.css';
 import './index.css'
 import Header from './Components/Header/Header'
+import Projects from './Components/Projects/Projects'
 
 
 function App() {
@@ -8,6 +9,9 @@ function App() {
 
     <div>
       <Header />
+      <Projects />
+      {/* <Contact />
+      <Footer /> */}
     </div>
 
   );
