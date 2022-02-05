@@ -7,7 +7,7 @@ function Footer() {
     return (
 
         <footer id="footer">
-            <p>&copy; Devon Webster 2022. All rights reserved.</p>
+            <p><small>&copy; Devon Webster 2022</small></p>
             <p>
                 <a href="#top">Go To Top</a>
             </p>

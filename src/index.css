@@ -26,6 +26,292 @@ h3 {
   font-size: 1.8rem;
 }
 
+/* HOME PAGE STYLES */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  color: var(--secondary-color);
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+nav ul li {
+  padding: 1.5rem;
+  margin-right: 1.5rem;
+  padding-right: 1rem;
+}
+
+.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 3rem;
+  margin: 3rem;
+}
+
+.header-content div h1 {
+  font-size: 4rem; 
+  color: var(--secondary-color);
+  justify-content: center;
+ 
+}
+
+.info .role p {
+  color: var(--third-color);
+}
+
+.header-content div p {
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+.name {
+  border-right: 3px solid #003560;
+  padding-right: 2rem;
+}
+
+.content-body p {
+  padding-top: 2.2rem;
+}
+
+.social-icons {
+display: flex;
+gap: 50px;
+justify-content: flex-end;
+padding: 20px 30px;
+}
+
+.social-icons img {
+  width: 30px;
+  filter: invert(16%) sepia(45%) saturate(2564%) hue-rotate(185deg) brightness(88%) contrast(103%);
+  opacity: 0.5; 
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    grid-gap: 20px;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.btn {
+    border: 2px solid var(--third-color);
+    color: var(--secondary-color);
+    padding: 5px 15px;
+    box-shadow: rgb(242 108 79) 2px 2px 0px 0px;
+    cursor: pointer;
+}
+
+/* HOME PAGE STYLES END */
+
+/* PROJECTS */
+#projects {
+  background-color: #003560;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 100px;
+  flex-direction: column;
+  gap: 50px;
+  grid-gap: 50px;
+  display: flex; 
+}
+
+
+.project-title,
+.contact-title{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+  text-decoration: underline;
+  text-decoration-color: var(--third-color);
+}
+
+.quiz,
+.task,
+.run-buddy,
+.pw-gen,
+.wrk-day,
+.weather {
+  display: flex;
+  gap: 30px;
+  max-width: 1200px;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  padding: 1rem;
+  /* align-items: center; */
+}
+
+.quiz img,
+.task img,
+.run-buddy img,
+.pw-gen img,
+.wrk-day img,
+.weather img{
+  width: 60%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  gap: 15px;
+  justify-content: center;
+}
+
+.tech {
+  display: flex;
+  gap: 15px;
+  color: var(--third-color)
+}
+
+.tech-html,
+.tech-css,
+.tech-js,
+.tech-jquery,
+.tech-bootstrap {
+  padding: 3px 7px;
+  font-size: 0.8rem;
+  font-weight: 300;
+  background: transparent;
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+}
+
+.demo,
+.resume {
+  padding: 5px 15px;
+  font-size: 1rem;
+  border: 3px solid var(--third-color);
+  color: var(--secondary-color);
+  box-shadow: rgb(242 108 79) 2px 2px 0px 0px;
+  cursor: pointer;
+  transition: all 0.22s ease-in-out 0s;
+}
+
+.github {
+  padding: 5px 15px;
+  font-size: 1rem;
+  color: rgb(194, 194, 194);
+  box-shadow: rgb(194, 194, 194) 2px 2px 0px 0px;
+  cursor: pointer;
+}
+
+.description,
+.info .content-body p {
+  color: lightgrey;
+}
+
+/* CONTACT */
+
+.contact-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.contact-info h3 {
+  color: var(--third-color);
+  
+}
+
+.wrapper {
+  display: flex;
+  padding: 50px;
+  grid-gap: 50px;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+width: 50%;
+background: var(--fourth-color);
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 10px 0 var(--third-color);
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 15px;
+  gap: 15px;
+}
+
+form input, textarea {
+  padding: 10px 20px;
+  outline: none;
+  border: 1px solid var(--third-color);
+
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+}
+
+.message {
+  margin: 15px 0;
+}
+
+.message p {
+  margin-bottom: 10px;
+  color: var(--secondary-color)
+}
+
+form button {
+  padding: 5px 15px;
+  font-size: 1rem;
+  border: 3px solid var(--third-color);
+  color: var(--secondary-color);
+  box-shadow: 4px 2px 0 0 var(--secondary-color);
+  cursor: pointer;
+}
+
+.contact-info {
+  width: 50;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 30px;
+  gap: 30px;
+}
+
+.contact-body {
+  color: lightgrey;
+}
+.socials {
+  color: var(--secondary-color)
+}
+
+.social a {
+  display: inline-block;
+}
+
+/* CONTACT END */
+
+/* FOOTER */
+
+#footer {
+  display: flex;
+  background: var(--fourth-color);
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  padding: 20px 100px;
+  color: var(--secondary-color);
+  width: 100%;
+}
+
 /* MEDIA QUERIES */
 
 /*575*/
@@ -202,5 +488,10 @@ h3 {
       width: auto;
       height: 50%;
 
+  }
+
+  #footer {
+    display: flex;
+    flex-direction: column;
   }
 }
