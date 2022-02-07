@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/%7Breact-portfolio%7D/static/css/main.e1b5c644.css",
+    "main.js": "/%7Breact-portfolio%7D/static/js/main.86574a65.js",
+    "static/js/787.a2cb61a6.chunk.js": "/%7Breact-portfolio%7D/static/js/787.a2cb61a6.chunk.js",
+    "static/media/weather.png": "/%7Breact-portfolio%7D/static/media/weather.d47475e9851676c5de8d.png",
+    "static/media/pw-gen.png": "/%7Breact-portfolio%7D/static/media/pw-gen.46bffe35d4843eadd488.png",
+    "static/media/wrk-day.png": "/%7Breact-portfolio%7D/static/media/wrk-day.e7a6268c25f9525e0014.png",
+    "static/media/quiz.png": "/%7Breact-portfolio%7D/static/media/quiz.6428038054f7ac661284.png",
+    "static/media/task.png": "/%7Breact-portfolio%7D/static/media/task.4823a84dd9ebc911e516.png",
+    "index.html": "/%7Breact-portfolio%7D/index.html",
+    "main.e1b5c644.css.map": "/%7Breact-portfolio%7D/static/css/main.e1b5c644.css.map",
+    "main.86574a65.js.map": "/%7Breact-portfolio%7D/static/js/main.86574a65.js.map",
+    "787.a2cb61a6.chunk.js.map": "/%7Breact-portfolio%7D/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1b5c644.css",
+    "static/js/main.86574a65.js"
+  ]
+}
