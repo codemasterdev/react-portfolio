@@ -20,7 +20,7 @@ function Projects() {
 
                 {/* JAVASCRIPT PROJECT */}
                 <div className="quiz">
-                    <img src={quizImage} alt="quiz-photo" />
+                    <img src={quizImage} alt="quiz app screenshot" />
                     <div className="content">
                         <h3>Javascript Quiz</h3>
                         <div className="tech">
@@ -33,10 +33,12 @@ function Projects() {
                             for a total of 10 questions.
                             </div>
                         <div className="buttons">
-                            <a href="https://codemasterdev.github.io/javascript-quiz/" className="demo" target="_blank">Live
+                            <a href="https://codemasterdev.github.io/javascript-quiz/" className="demo" target="_blank"
+                                rel="noreferrer">Live
                                 Demo</a>
                             <a href="https://github.com/codemasterdev/javascript-quiz" className="github"
-                                target="_blank">Github</a>
+                                target="_blank"
+                                rel="noreferrer">Github</a>
                         </div>
                     </div>
                 </div>
@@ -57,10 +59,12 @@ function Projects() {
                             and drop feature to quickly edit your task.
                                 </div>
                         <div className="buttons">
-                            <a href="https://codemasterdev.github.io/taskmaster-pro/" className="demo" target="_blank">Live
+                            <a href="https://codemasterdev.github.io/taskmaster-pro/" className="demo" target="_blank"
+                                rel="noreferrer">Live
                                     Demo</a>
                             <a href="https://github.com/codemasterdev/taskmaster-pro" className="github"
-                                target="_blank">Github</a>
+                                target="_blank"
+                                rel="noreferrer">Github</a>
                         </div>
                     </div>
                 </div>
@@ -81,15 +85,17 @@ function Projects() {
                             characters.
                                         </div>
                         <div className="buttons">
-                            <a href="https://codemasterdev.github.io/pw-gen/" className="demo" target="_blank">Live Demo</a>
-                            <a href="https://github.com/codemasterdev/pw-gen" className="github" target="_blank">Github</a>
+                            <a href="https://codemasterdev.github.io/pw-gen/" className="demo" target="_blank"
+                                rel="noreferrer">Live Demo</a>
+                            <a href="https://github.com/codemasterdev/pw-gen" className="github" target="_blank"
+                                rel="noreferrer">Github</a>
                         </div>
                     </div>
                 </div>
 
                 {/* WORK DAY SCHEDULER PROJECT */}
                 <div className="wrk-day">
-                    <img src={wrkdayImage} alt="scheduler-photo" />
+                    <img src={wrkdayImage} alt="work day screenshot" />
                     <div className="content">
                         <h3>Work Day Scheduler</h3>
                         <div className="tech">
@@ -103,16 +109,18 @@ function Projects() {
                             day. The app uses local storage to save input to keep data.
                                         </div>
                         <div className="buttons">
-                            <a href="https://codemasterdev.github.io/day-planner/" className="demo" target="_blank">Live
+                            <a href="https://codemasterdev.github.io/day-planner/" className="demo" target="_blank"
+                                rel="noreferrer">Live
                                                 Demo</a>
-                            <a href="https://github.com/codemasterdev/day-planner" className="github" target="_blank">Github</a>
+                            <a href="https://github.com/codemasterdev/day-planner" className="github" target="_blank"
+                                rel="noreferrer">Github</a>
                         </div>
                     </div>
                 </div>
 
                 {/* WEATHER APP  */}
                 <div className="weather">
-                    <img src={weatherImage} alt="weather-photo" />
+                    <img src={weatherImage} alt="weather app screenshot" />
                     <div className="content">
                         <h3>Weather App</h3>
                         <div className="tech">
@@ -125,9 +133,11 @@ function Projects() {
                             An application that was built to track the 5 day weather or any location.
                                             </div>
                         <div className="buttons">
-                            <a href="https://codemasterdev.github.io/weather-app/" className="demo" target="_blank">Live
+                            <a href="https://codemasterdev.github.io/weather-app/" className="demo" target="_blank"
+                                rel="noreferrer">Live
                                                     Demo</a>
-                            <a href="https://github.com/codemasterdev/weather-app" className="github" target="_blank">Github</a>
+                            <a href="https://github.com/codemasterdev/weather-app" className="github" target="_blank"
+                                rel="noreferrer">Github</a>
                         </div>
                     </div>
                 </div>

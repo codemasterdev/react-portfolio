@@ -1,2 +1,144 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: var(--secondary-color);
+  }
+  
+  nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  
+  nav ul li {
+    padding: 1.5rem;
+    margin-right: 1.5rem;
+    padding-right: 1rem;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 3rem;
+    margin: 3rem;
+  }
+  
+  .header-content div h1 {
+    font-size: 4rem; 
+    color: var(--secondary-color);
+    justify-content: center;
+   
+  }
+  
+  .info .role p {
+    color: var(--third-color);
+  }
+  
+  .header-content div p {
+    color: var(--secondary-color);
+    text-align: center;
+  }
+  
+  .name {
+    border-right: 3px solid #003560;
+    padding-right: 2rem;
+  }
+  
+  .content-body p {
+    padding-top: 2.2rem;
+  }
+  
+  .social-icons {
+  display: flex;
+  gap: 50px;
+  justify-content: flex-end;
+  padding: 20px 30px;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    filter: invert(16%) sepia(45%) saturate(2564%) hue-rotate(185deg) brightness(88%) contrast(103%);
+    opacity: 0.5; 
+  }
+  
+  .buttons {
+      display: flex;
+      gap: 20px;
+      grid-gap: 20px;
+      justify-content: center;
+      padding-top: 5%;
+  }
+  
+  .btn {
+      border: 2px solid var(--third-color);
+      color: var(--secondary-color);
+      padding: 5px 15px;
+      box-shadow: rgb(242 108 79) 2px 2px 0px 0px;
+      cursor: pointer;
+  }
 
+  @media (max-width: 420px) {
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+      }
+      nav ul {
+        font-size: 15px;
+        gap: 15px;
+      }
+      nav img {
+        width: 100%;
+      }
+  
+      .header-content {
+        margin: auto;
+        gap: 0px;
+      }
+      .header-content h1 {
+        font-size: 3.5rem;
+      }
+    
+      .social-icons img {
+        width: 20px;
+      }
+    
+      .header-content .content-body {
+        font-size: 15px;
+        padding: 0 20px;
+      }
+
+  }
+
+@media (max-width: 800px) {
+    .header-content {
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 50px;
+      }
+    
+      .header-content h1 {
+        text-align: center;
+      }
+    
+      .social-icons {
+        justify-content: center;
+      }
+    
+      .header-content h1::before {
+        display: none;
+      }
+    
+      .header-content .info {
+        text-align: center;
+        align-items: center;
+      }
+  
+      .name {
+        border-right: none;
+    }
+}
  

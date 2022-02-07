@@ -7,22 +7,22 @@ function Contact() {
 
         <section id="contact-footer">
 
-            <div class="contact-title">
+            <div className="contact-title">
                 <h2>Reach Out</h2>
             </div>
 
-            <article class="wrapper">
+            <article className="wrapper">
 
                 {/* <!-- FORM --> */}
-                <form class="contact form" action="POST" method="POST" name="contact" data-netlify="true">
+                <form className="contact form" action="POST" method="POST" name="contact" data-netlify="true">
 
-                    <div class="details">
+                    <div className="details">
                         <input type="text" name="name" placeholder="Full name" aria-label="name" required />
                         <input type="text" name="email" placeholder="Email" aria-label="email" required />
                         <input type="text" name="number" placeholder="Phone number" aria-label="phone number" required />
                     </div>
 
-                    <div class="message">
+                    <div className="message">
                         <p>Message</p>
                         <textarea rows={4} name="message" required></textarea>
                     </div>
@@ -30,24 +30,25 @@ function Contact() {
                 </form>
 
                 {/* <!-- CONTACT DETAILS --> */}
-                <div class="contact-info">
+                <div className="contact-info">
                     <h3>Let's Chat</h3>
 
-                    <p class="contact-body">
+                    <p className="contact-body">
                         I'm open to working on projects or collaborating with people, I'd love to hear your ideas and work
                         with you.
                     </p>
 
-                    <div class="socials">
+                    <div className="socials">
                         <a href="mailto:d.webster05@yahoo.com">Email: D.webster05@yahoo.com</a>
                         <br />
-                        <a href="https://www.linkedin.com/in/dw95" target="_blank">Connect on LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/dw95" target="_blank" rel="noreferrer">Connect on LinkedIn</a>
                     </div>
 
-                    <div class="buttons">
+                    <div className="buttons">
                         <a href="https://github.com/codemasterdev/portfolio/blob/main/resume/Devon%20Webster%20Resume.pdf"
-                            target="blank" class="resume">View Resume</a>
-                        <a href="https://github.com/codemasterdev" target="_blank" class="github">View Github</a>
+                            target="blank" className="resume">View Resume</a>
+                        <a href="https://github.com/codemasterdev" target="_blank" className="github"
+                            rel="noreferrer">View Github</a>
 
                     </div>
                 </div>

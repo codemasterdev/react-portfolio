@@ -20,30 +20,34 @@ function Header() {
                 </ul>
             </nav>
 
-            <article class="header-content">
+            <article className="header-content">
 
-                <div class="name">
+                <div className="name">
 
                     <h1>Devon Webster</h1>
 
-                    <div class="social-icons">
+                    <div className="social-icons">
 
-                        <a href="https://github.com/codemasterdev" target="_blank">.
-                            <img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" />
+                        <a href="https://github.com/codemasterdev" target="_blank" className="link-txt"
+                            rel="noreferrer">.
+                            <img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png"
+                                alt="github logo" />
                         </a>
-                        <a href="https://www.linkedin.com/in/dw95" target="_blank">.
-                                   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png"></img>
+                        <a href="https://www.linkedin.com/in/dw95" target="_blank" className="link-txt"
+                            rel="noreferrer">.
+                                   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png"
+                                alt="linkedin logo"></img>
                         </a>
                     </div>
                 </div>
 
-                <div class="info">
+                <div className="info">
 
-                    <div class="role">
+                    <div className="role">
                         <p>Front End Web Developer</p>
                     </div>
 
-                    <div class="content-body">
+                    <div className="content-body">
                         <p>I am passionate about creating intuitive and dynamic user experience. Contributing to the
                         creation
                         of
@@ -56,9 +60,9 @@ function Header() {
                         in continuous and building new skills is my aim.
                         </p>
 
-                        <div class="buttons">
-                            <a href="#projects" class="btn">View Projects</a>
-                            <a class="btn" href="mailto:d.webster05@yahoo.com">Contact Me</a>
+                        <div className="buttons">
+                            <a href="#projects" className="btn">View Projects</a>
+                            <a className="btn" href="mailto:d.webster05@yahoo.com">Contact Me</a>
                         </div>
 
                     </div>
